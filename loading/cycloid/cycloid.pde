@@ -27,6 +27,7 @@ void setup(){
 void draw(){
   background(0);
   smooth();
+  noStroke();
   cyc.update(count * frequency, radius);
   ellipse(cyc.x,cyc.y+(height/2),eSize,eSize);
   count ++;
